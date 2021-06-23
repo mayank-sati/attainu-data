@@ -1,0 +1,45 @@
+function showGreeting(name){
+   var greeting = "Good morning"
+    console.log(greeting + " " + name);
+
+}
+var showGreeting ("Nishant");
+
+var greeting = "Good Night"
+function showGreeting(name){
+    var greeting = "Good night";
+    var message = greeting + " " + name;
+    return message;
+}
+var a = showGreeting("Mayank");
+console.log(a);
+
+var scope = "global";
+function checkScope(){
+    var scope = "local";
+    return scope;
+}
+var a = checkScope();
+console.log(a);
+
+function add(numberOne, numberTwo, numberThree){
+    var value = numberOne + numberTwo + numberThree;
+    return value;
+}
+var result = add (2,4,5);
+console.log(result);
+
+/* convocation is calling a function
+    To execute the function you have to call it.
+    Stored it keep it execute only when called.
+    function identifier_name (pass_value parameter){
+        Code inside the function
+    }
+    To minimize the work and not repeat the same line
+    of code again and again we use functions.
+    WATCH AT 50 minute
+
+    LOCAL VS GLOBAL VARIABLES
+
+    */
+
